@@ -18,9 +18,8 @@ theme_tn <- function(title_color=NA
                      ,axis_line_color=NA
                      ,caption_color=NA
                      ,background_color=NA){
-  font<-'Open Sans'
-  sysfonts::font_add_google(font,font)
-  showtext::showtext_auto()
+  
+  
 
   for(i in c('title_color','subtitle_color','axis_text_color','axis_line_color','caption_color','background_color')){
     if(i=='background_color'){
@@ -111,7 +110,7 @@ names(tn_palettes)
 #'
 #' @export
 tn_logo_fetch <- function(name) {
-    magick::image_read(system.file(paste0("logos/",name,".png"), package="TNTools"))
+    magick::image_read(system.file(paste0("logos/",name,".png"), package="TNBrandR"))
 }
 
 

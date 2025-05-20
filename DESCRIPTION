@@ -8,3 +8,15 @@ Description: Palettes, logos, fonts and helper functions for working with plots 
 License: MIT
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    ggplot2,
+    showtext,
+    grid,
+    magick,
+    cowplot,
+    scales,
+    rlang,
+    sysfonts
+Depends: 
+    R (>= 3.5)

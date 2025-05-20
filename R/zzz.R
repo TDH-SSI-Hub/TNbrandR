@@ -5,6 +5,10 @@
     ggplot2.discrete.fill= list(gcol)
     ,ggplot2.discrete.colour= list(gcol)
   )
+  
+  font<-'Open Sans'
+  sysfonts::font_add_google(font,font)
+  showtext::showtext_auto()
 
   invisible()
 }
